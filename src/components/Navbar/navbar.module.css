@@ -1,0 +1,144 @@
+.header-container{
+    /* background-color: #141414; */
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header-container-bc{
+    background-color: rgb(20, 20, 20);
+    transition: all 1s ease-out;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0 4%;
+    justify-content: space-between;
+}
+
+.navbar-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-second{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.navbar-brand-image{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar-brand-image {
+    font-size: 1.5rem;
+}
+
+.navbar-first-links{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-second-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar-icons{
+    position: relative;
+}
+.navbar-first-link{
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.navbar-second-link{
+    padding:0 1rem;
+}
+
+.navabar-second-search-input{
+    background-color: rgb(20, 20, 20);
+    border-color: white;
+    border-width: 2px;
+    /* border-style: solid; */
+    vertical-align: super;
+    width: 0rem;
+    transition: all .5s;
+    visibility: hidden;
+    color: white;
+}
+.display-arrow-down-icon{
+    transition: transform 0.2s ease-in;
+    transform: rotateZ(0deg);
+}
+
+
+.navbar-icons:hover .display-arrow-down-icon{
+    transform: rotateZ(180deg)
+}
+
+.navbar-icons:hover .navabar-second-search-input{
+    visibility: visible;
+    width: 12rem;
+    height: 1.5rem;
+
+}
+.manage-profile{
+    display: none;
+    width: 10rem;
+    padding: 0.5rem 0;
+    border:2px white solid;
+    border-radius: 5px;
+}
+.manage-profile hr{
+    width: 100%;
+    background-color: white;
+}
+.manage-profile-lists{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.manage-profile-list{
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.manage-profile-list > span img,
+.manage-profile-list >span a{
+    vertical-align: middle;
+}
+.manage-profile-other-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.manage-profile-other-link{
+    margin: 0 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+.navbar-icons:hover .manage-profile{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    position: absolute;
+    top:1.5rem;
+    left:-50%;
+}
+

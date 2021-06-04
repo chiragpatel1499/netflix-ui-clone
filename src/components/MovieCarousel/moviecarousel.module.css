@@ -1,0 +1,38 @@
+.movie-carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.movie-carousel-title p{
+    margin: 1rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 4%;
+    z-index: -10;
+}
+.movie-carousel-arrow-before{
+    align-self:center;
+    cursor: pointer;
+    padding: 0 -4%;
+}
+.movie-carousel-cards{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    /* width: 100%; */
+}
+.movie-carousel-card{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    width: 100%;
+}
+.movie-carousel-arrow-next{
+    align-self: center;
+    cursor: pointer;
+}

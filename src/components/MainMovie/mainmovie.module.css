@@ -1,0 +1,15 @@
+.main-movie-container{
+    height: 80vh;
+    width: 100%;
+    background-image: 
+    linear-gradient(to top, rgba(20,20,20,1) 0%, rgba(20,20,20,0.5) 35%, rgba(20,20,20,0) 100%), 
+    url('https://static1.colliderimages.com/wordpress/wp-content/uploads/2020/11/Best-tv-shows-Netflix-V3-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-position:center bottom;
+    z-index: -1;
+    position: relative;
+
+}
